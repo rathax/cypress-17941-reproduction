@@ -1,0 +1,44 @@
+{
+  "name": "debug",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "serve:production": "vue-cli-service serve --mode=production",
+    "build": "vue-cli-service build",
+    "test": "vue-cli-service test:unit",
+    "test:watch": "vue-cli-service test:unit --watch",
+    "lint": "vue-cli-service lint",
+    "i18n:report": "vue-cli-service i18n:report --src \"./src/**/*.?(js|vue)\" --locales \"./src/locales/**/de.ts\""
+  },
+  "dependencies": {
+    "vue": "3.2.11"
+  },
+  "devDependencies": {
+    "@cypress/vue": "3.0.3",
+    "@cypress/webpack-dev-server": "^1.4.0",
+    "@intlify/vue-i18n-loader": "^2.1.2",
+    "@typescript-eslint/eslint-plugin": "^4.29.0",
+    "@typescript-eslint/parser": "^4.30.0",
+    "@vue/cli-plugin-babel": "^4.5.13",
+    "@vue/cli-plugin-eslint": "^4.5.13",
+    "@vue/cli-plugin-typescript": "^4.5.13",
+    "@vue/cli-service": "^4.5.13",
+    "@vue/compiler-sfc": "^3.1.5",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "@vue/eslint-config-typescript": "^7.0.0",
+    "@vue/test-utils": "^2.0.0-rc.12",
+    "vue-eslint-parser": "^7.11.0",
+    "core-js": "^3.16.0",
+    "cypress": "8.3.1",
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^7.15.1",
+    "html-webpack-plugin": "4.5.2",
+    "prettier": "^2.3.1",
+    "sass": "^1.37.5",
+    "sass-loader": "^10.2.0",
+    "typescript": "~4.4.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}

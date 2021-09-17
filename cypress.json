@@ -1,0 +1,8 @@
+{
+    "component": {
+      "componentFolder": "./",
+      "testFiles": "tests/cypress/*spec.{js,jsx,ts,tsx}"    },
+    "video": false,
+    "viewportWidth": 1200,
+    "viewportHeight": 800
+  }
